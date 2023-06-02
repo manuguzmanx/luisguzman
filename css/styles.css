@@ -419,7 +419,6 @@ Lo que coloque por fuera aplica desde 0px*/
     border-radius: 0.5rem;
 }
 
-
 .botones {
     display: flex;
     flex-direction: row;
@@ -447,4 +446,39 @@ button {
 
 button.boton-reset {
     background-color: #ff6347;
+}
+
+button.btn-disabled {
+    opacity: 0.5;
+}
+
+button.btn-disabled:hover {
+    cursor: not-allowed;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.mt-10 {
+    margin-top: 1rem;
+}
+
+.alerta-exito {
+    background-color: #77dd77;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
