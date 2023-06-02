@@ -124,7 +124,6 @@ document.addEventListener('DOMContentLoaded', function() {
         email.mensaje = '';
         formulario.reset();
         
-        limpiarAlerta(document.querySelector('.contenedor-campos'));
         comprobarEmail();
     }
     
