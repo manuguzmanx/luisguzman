@@ -123,7 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
         email.telefono = '';
         email.mensaje = '';
         formulario.reset();
-
+        
+        limpiarAlerta(document.querySelector('.contenedor-campos'));
         comprobarEmail();
     }
     
