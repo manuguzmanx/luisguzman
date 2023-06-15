@@ -53,10 +53,13 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 alertaExito.remove();
             }, 3000);
+
+            setTimeout(() => {
+                formulario.submit();
+            }, 4000);
             
         }, 3000);
         
-        formulario.submit();
     }
 
     function validar(e) {
