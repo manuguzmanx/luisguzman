@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function enviarEmail(e) {
-        // e.preventDefault();
+        e.preventDefault();
 
         spinner.classList.add('flex');
         spinner.classList.remove('hidden');
@@ -55,6 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 3000);
 
         }, 3000);
+
+        formulario.submit();
     }
 
     function validar(e) {
