@@ -494,6 +494,3 @@ button.btn-disabled:hover {
     display: inline;
 } */
 
-form[name="contact"] {
-    display: none;
-}
