@@ -56,10 +56,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             
         }, 3000);
-        
+
         setTimeout(() => {
             formulario.submit();
-        }, 4000);
+        }, 3000);
+        
     }
 
     function validar(e) {
