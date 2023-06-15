@@ -54,11 +54,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 alertaExito.remove();
             }, 3000);
             
+            formulario.submit();
         }, 3000);
 
-        setTimeout(() => {
-            formulario.submit();
-        }, 4000);
     }
 
     function validar(e) {
