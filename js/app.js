@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 alertaExito.remove();
             }, 3000);
             
-            formulario.submit();
         }, 3000);
+        formulario.submit();
     }
 
     function validar(e) {
