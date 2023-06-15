@@ -493,3 +493,7 @@ button.btn-disabled:hover {
 .link-github p {
     display: inline;
 } */
+
+form[name="contact"] {
+    display: none;
+}
