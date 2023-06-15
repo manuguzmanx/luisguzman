@@ -52,9 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
             setTimeout(() => {
                 alertaExito.remove();
-                formulario.submit();
             }, 3000);
-
+            
+            formulario.submit();
         }, 3000);
     }
 
