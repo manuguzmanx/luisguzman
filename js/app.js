@@ -25,14 +25,14 @@ document.addEventListener('DOMContentLoaded', function() {
     formulario.addEventListener('submit', enviarEmail);
 
     btnReset.addEventListener('click', function(e) {
-        // e.preventDefault();
+        e.preventDefault();
 
         //Reiniciar el formulario
         resetFormulario();
     });
 
     function enviarEmail(e) {
-        e.preventDefault();
+        // e.preventDefault();
 
         spinner.classList.add('flex');
         spinner.classList.remove('hidden');
