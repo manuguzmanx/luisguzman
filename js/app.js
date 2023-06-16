@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => {
             spinner.classList.remove('flex');
             spinner.classList.add('hidden');
+            formulario.submit();
             resetFormulario();
 
             //Crear una alerta de envío exitoso
@@ -54,11 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 alertaExito.remove();
             }, 3000);
 
-            
         }, 3000);
 
-        formulario.submit();
-        
     }
 
     function validar(e) {
